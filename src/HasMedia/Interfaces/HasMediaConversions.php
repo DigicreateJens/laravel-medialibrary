@@ -14,5 +14,5 @@ interface HasMediaConversions extends HasMedia
      *
      * @return array
      */
-    public function registerMediaConversions(Media $media = null);
+    public function registerMediaConversions(Media $media);
 }
